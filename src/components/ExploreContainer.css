@@ -1,10 +1,12 @@
 #container {
-  text-align: center;
-  position: absolute;
-  left: 0;
-  right: 0;
-  top: 50%;
-  transform: translateY(-50%);
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 10%;
+}
+
+button.alert-button.alert-button-confirm {
+  color: red;
 }
 
 #container strong {
